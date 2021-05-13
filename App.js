@@ -38,6 +38,9 @@ const App = () => {
         longitudeDelta: 0.0421,
       }}
       showsUserLocation={true}
+      zoomEnabled={true}
+      scrollEnabled={true}
+      showsScale={true}
     />
   );
 };
